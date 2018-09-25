@@ -15,7 +15,7 @@ public class WeatherController {
 
 	@RequestMapping(value="/weather/zip/{zipcode}", method = RequestMethod.GET)
 	public String getCityForZip(@PathVariable("zipcode") String zipcode) {   
-	   return "Weather Service : Zip Code Submitted :" + zipcode;
+	   return "Response from Weather Service : Zip Code Submitted :" + zipcode;
 	}
 
 }
